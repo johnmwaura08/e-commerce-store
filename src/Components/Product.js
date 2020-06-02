@@ -24,14 +24,28 @@ export default class Product extends Component {
                 console.log("added to cart");
               }}
             >
+              {/* //we can check the in cart button by changing value of incart in data.js to true */}
               {inCart ? (
                 <p className="text-capitalize mb-0" disabled>
-                  inCart
+                  {""}
+                  in cart
                 </p>
               ) : (
                 <FaCartArrowDown />
               )}
             </button>
+          </div>
+
+          {/* card footer */}
+          <div className="card-footer d-flex justify-content-between">
+
+            <p className="align-self-center mb-0">
+              {title}
+            </p>
+            <h5 className="text-blue font-italic mb-0">
+              <span className="mr-1">$</span>
+              {price}
+            </h5>
           </div>
         </div>
       </ProductWrapper>
