@@ -19,7 +19,7 @@ export default class ProductList extends Component {
             <div className="row">
                 <ProductConsumer>
                     {(value)=>{
-                        return <h1>{value}</h1> // whatever value in context will be returned here
+                        console.log(value) // whatever value in context will be returned here
                     }}
                 </ProductConsumer>
             </div>
