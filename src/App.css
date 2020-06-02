@@ -26,3 +26,6 @@ body {
 .text-blue {
   color: var(--mainBlue);
 }
+logo{
+  color: #611f69;
+}
