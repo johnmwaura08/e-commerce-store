@@ -1,2 +1,2 @@
 ### e-commerce store for tech products,
-##  made using ReactJs, ContextApi & React-Hooks
+##  made using ReactJs,Bootstrap, ContextApi & React-Hooks
