@@ -14,7 +14,9 @@ const ButtonContainer = styled.button`
   transition: all 0.5s ease-in-out;
   &:hover{
       
-      color: #00FF00;
+      /* color: #00FF00; */
+  color:#f469a9;
+
   }
   &:focus{
       outline: none;
