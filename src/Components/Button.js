@@ -15,7 +15,8 @@ const ButtonContainer = styled.button`
   &:hover{
       
       /* color: #00FF00; */
-  color:#f469a9;
+  /* color:#f469a9; */
+  color:#7c4183;
 
   }
   &:focus{
