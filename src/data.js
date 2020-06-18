@@ -101,7 +101,7 @@ export const storeProducts = [
     total: 0
   }
 ];
-
+//placeholder
 export const detailProduct = {
   id: 1,
   title: "Google Pixel - Black",
