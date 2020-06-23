@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {ProductConsumer} from '../context';
 import {Link} from 'react-router-dom';
-import{ButtonContainer} from './Button'
+import ButtonContainer from './Button'
 
 export default class Details extends Component {
     render() {
@@ -39,6 +39,22 @@ export default class Details extends Component {
                                     <h4> <strong> price : <span>$</span>{price}</strong></h4>
                                     <p className="text-capitalize font-weight-bold mt-3 mb-0">some info about product:</p>
                                     <p className="text-muted lead">{info}</p>
+                                    {/* buttons */}
+                                    <div>
+                                        < Link to='/'>
+                                            <ButtonContainer> back to products</ButtonContainer>
+                                            <ButtonContainer
+                                            cart 
+                                            disabled={inCart?true:false}
+                                            onClick={()=>{
+                                                value.addToCart(id)
+                                            }}
+                                            >
+                                                {inCart?"inCart": "add to cart"}
+
+                                            </ButtonContainer>
+                                        </Link>
+                                    </div>
                                 </div>
                             </div>
 
