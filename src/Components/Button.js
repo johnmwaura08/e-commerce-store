@@ -6,6 +6,10 @@ const ButtonContainer = styled.button`
   /* background: transparent; */
   border: 0.05 rem solid #611f69;
   color: #611f69;
+  border-color:${props=> props.cart?"#F8E919":"#611f69"};
+  color:${props=> props.cart?"#F8E919":"#611f69"};
+
+
   
   border-radius: 0.5rem;
   cursor: pointer;
@@ -17,6 +21,7 @@ const ButtonContainer = styled.button`
       /* color: #00FF00; */
   /* color:#f469a9; */
   color:#7c4183;
+  background: ${props=> props.cart?"#F8E919":"#611f69"};
 
   }
   &:focus{
