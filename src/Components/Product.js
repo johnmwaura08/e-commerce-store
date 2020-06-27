@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { ProductConsumer } from "../context";
 import { FaCartArrowDown } from "react-icons/fa";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 export default class Product extends Component {
   render() {
@@ -11,32 +11,37 @@ export default class Product extends Component {
     return (
       <ProductWrapper className={"col-9 mx-auto col-md-6 col-lg-3"}>
         <div className="card">
-          <div
-            className="img-container p-5 "
-            onClick={() => console.log("you clicked on the image container")}
-          >
-            <Link to="/details">
-              <img src={img} alt="product iamge" className="card-img-top" />
-            </Link>
-            <button
-              className="cart-btn"
-              disabled={inCart ? true : false}
-              onClick={() => {
-                console.log("added to cart");
-              }}
-            >
-              {/* //we can check the in cart button by changing value of incart in data.js to true */}
-              {inCart ? (
-                <p className="text-capitalize mb-0" disabled>
-                  {""}
-                  in cart
-                </p>
-              ) : (
-                <FaCartArrowDown />
-              )}
-            </button>
-          </div>
-
+          <ProductConsumer>
+            {(value) => (
+              <div
+                className="img-container p-5 "
+                onClick={() =>
+                  value.handleDetail(id)
+                }
+              >
+                <Link to="/details">
+                  <img src={img} alt="product iamge" className="card-img-top" />
+                </Link>
+                <button
+                  className="cart-btn"
+                  disabled={inCart ? true : false}
+                  onClick={() => {
+                    value.addToCart(id)
+                  }}
+                >
+                  {/* //we can check the in cart button by changing value of incart in data.js to true */}
+                  {inCart ? (
+                    <p className="text-capitalize mb-0" disabled>
+                      {""}
+                      in cart
+                    </p>
+                  ) : (
+                    <FaCartArrowDown />
+                  )}
+                </button>
+              </div>
+            )}
+          </ProductConsumer>
           {/* card footer */}
           <div className="card-footer d-flex justify-content-between">
             <p className="align-self-center mb-0">{title}</p>
@@ -51,17 +56,15 @@ export default class Product extends Component {
   }
 }
 
-Product.propTypes ={
+Product.propTypes = {
   product: PropTypes.shape({
-
     id: PropTypes.number,
     img: PropTypes.string,
     title: PropTypes.string,
-    price : PropTypes.number,
-    inCart: PropTypes.bool
-
-  }).isRequired
-}
+    price: PropTypes.number,
+    inCart: PropTypes.bool,
+  }).isRequired,
+};
 
 const ProductWrapper = styled.div`
   .card {
@@ -98,20 +101,19 @@ const ProductWrapper = styled.div`
     bottom: 0;
     right: 0;
     padding: 0.2rem 0.4rem;
-    background:#7c4183;
+    background: #7c4183;
     border: none;
     font-size: 1.4rem;
     border-radius: 0.5rem 0 0 0;
-    transform: translate(100% , 100%);
+    transform: translate(100%, 100%);
 
-
-    color:#f3f3f3;
+    color: #f3f3f3;
   }
-  .img-container:hover .cart-btn{
-    transform: translate(0,0)
+  .img-container:hover .cart-btn {
+    transform: translate(0, 0);
   }
-  .cart-btn:hover{
+  .cart-btn:hover {
     color: #611f69;
-    cursor:pointer;
+    cursor: pointer;
   }
 `;
