@@ -26,7 +26,8 @@ export default class Product extends Component {
                   className="cart-btn"
                   disabled={inCart ? true : false}
                   onClick={() => {
-                    value.addToCart(id)
+                    value.addToCart(id);
+                    value.openModal(id);
                   }}
                 >
                   {/* //we can check the in cart button by changing value of incart in data.js to true */}
