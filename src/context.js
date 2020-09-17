@@ -10,6 +10,7 @@ class ProductProvider extends Component {
   state = {
     products: [],
     detailProduct: detailProduct,
+    cart: []
   };
   componentDidMount(){
       this.setProducts();
