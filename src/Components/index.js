@@ -1,4 +1,4 @@
-export { default as Cart } from './Cart';
+export { default as Cart } from './Cart/Cart';
 export { default as Default } from './Default';
 export { default as Details } from './Details';
 export { default as Navbar } from './Navbar';
