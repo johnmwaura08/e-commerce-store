@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBorderNone, FaCentercode, FaFileAudio } from 'react-icons/fa'
+
 
 export default function CartColumns() {
     return (
