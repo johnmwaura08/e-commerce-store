@@ -11,8 +11,11 @@ class ProductProvider extends Component {
     products: [],
     detailProduct: detailProduct,
     cart: [],
-    modalOpen: true,
+    modalOpen: false,
     modalProduct: detailProduct,
+    cartSubTotal: 0,
+    cartTax :0,
+    cartTotal : 0
 
   };
   componentDidMount(){
@@ -69,17 +72,34 @@ class ProductProvider extends Component {
       return{modalOpen: false}
     })
   }
+  increment = (id) => {
+    console.log('this is increment method');
+  }
+  decrement = (id) => {
+    console.log('this is decrement method');
+  }
 
+  removeItem = (id) => {
+    console.log('item removed ');
+  }
+  clearCart = () => {
+    console.log('cart was cleared');
+  }
   render() {
     return (
       <ProductContext.Provider
         value={{
-          //value can be an object with methods and we can access it on productlist
+          //value can be an object with methods and we can access it on productlist and other components
           ...this.state,
           handleDetail: this.handleDetail,
           addToCart: this.addToCart,
           openModal: this.openModal,
-          closeModal: this.closeModal
+          closeModal: this.closeModal,
+          increment: this.increment,
+          decrement: this.decrement,
+          removeItem: this.removeItem,
+          clearCart: this.clearCart
+
         }}
       >
         {this.props.children}
