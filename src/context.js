@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { storeProducts, detailProduct } from "./data";
-import { ThemeProvider } from "styled-components";
+
 
 const ProductContext = React.createContext();
 //provider
