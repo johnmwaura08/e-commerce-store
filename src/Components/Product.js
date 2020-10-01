@@ -67,14 +67,14 @@ Product.propTypes = {
   }).isRequired,
 };
 
-const ProductWrapper = styled.div`
+const ProductWrapper = styled.div`  
   .card {
     border-color: transparent;
     transition: all 1s linear;
   }
   .card-footer {
     background: transparent;
-    border-top: transparent;
+    border-top: transpar ent;
     transition: all 1s linear;
   }
   &:hover {

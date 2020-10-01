@@ -26,7 +26,7 @@ const ButtonContainer = styled.button`
   }
   &:focus{
       outline: none;
-  }
+  }-
   `;
 
   export default ButtonContainer;
