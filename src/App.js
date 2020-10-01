@@ -7,8 +7,9 @@ import {
   Default,
   Details,
   Navbar,
+  LandingPage,
   ProductList,
-  Modal,
+  Modal
 } from "./Components";
 
 class App extends React.Component {
@@ -17,10 +18,10 @@ class App extends React.Component {
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={ProductList} />
+          <Route exact path="/" component={LandingPage} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
-
+          <Route path="/products" component={ProductList} />
           <Route component={Default} />
         </Switch>
 
