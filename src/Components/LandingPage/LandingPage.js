@@ -114,7 +114,6 @@ export default function LandingPage() {
 			<div className= {styles.formStyle}>
 			  <input id="email" name="email" type="email" placeholder="Enter your email..." />
 			  <input id="submit" type="submit" className={styles.btnGhost} value="Submit" />
-	  
 			</div>
 		  </form>
 		</div>
