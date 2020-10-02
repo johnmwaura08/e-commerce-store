@@ -37,8 +37,8 @@ export default class Product extends Component {
                       in cart
                     </p>
                   ) : (
-                    <FaCartArrowDown />
-                  )}
+                      <FaCartArrowDown />
+                    )}
                 </button>
               </div>
             )}
@@ -71,6 +71,7 @@ const ProductWrapper = styled.div`
   .card {
     border-color: transparent;
     transition: all 1s linear;
+    padding: 15px 15px;
   }
   .card-footer {
     background: transparent;
