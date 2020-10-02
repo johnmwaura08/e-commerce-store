@@ -21,12 +21,8 @@ class App extends React.Component {
           <Route exact path="/" component={LandingPage} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
-<<<<<<< HEAD
           <Route path="/landingpage" component={LandingPage} />
           <Route path="/contact" component={ContactForm} />
-=======
-          <Route path="/products" component={ProductList} />
->>>>>>> daa222968f69397cef10204608b2c8601f1dea72
           <Route component={Default} />
         </Switch>
 
