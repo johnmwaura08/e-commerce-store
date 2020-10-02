@@ -11,17 +11,18 @@ import {
   ProductList,
   Modal
 } from "./Components";
-
+import ContactForm from "./Components/Contact/ContactForm";
 class App extends React.Component {
   render() {
     return (
       <React.Fragment>
         <Navbar />
         <Switch>
-          <Route exact path="/" component={LandingPage} />
+          <Route exact path="/" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
-          <Route path="/products" component={ProductList} />
+          <Route path="/landingpage" component={LandingPage} />
+          <Route path="/contact" component={ContactForm} />
           <Route component={Default} />
         </Switch>
 
