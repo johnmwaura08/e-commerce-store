@@ -9,9 +9,8 @@ export const storeProducts = [
     title: "PARIS ST-GERMAIN HOME KIT",
     img: "kits/pasg.jpg",
     price: 65,
-    company: "GOOGLE",
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    brand: "Nike",
+    info:"Jersey fits true to size ,Material is 100% Polyester,Nike Breathe fabrics move sweat from your skin and feature highly breathable construction to help you stay dry and comfortable,Dri-FIT technology that  wicks away moisture,Woven Authentic Nike jock tag on left hem,Embroidered Nike ® logo on right chest,Sewn on embroidered team crest on left chest.and is Machine washable",
     inCart: false,
     count: 0,
     total: 0
@@ -34,10 +33,9 @@ export const storeProducts = [
     id: 3,
     title: "FC BARCELONA HOME KIT",
     img: "kits/images (3).jpg",
-    price: 8,
-    company: "htc",
-    info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    price: 64.99,
+    brand: "NIKE",
+    info:"The great return of the stripes on the classic Blaugrana jersey, but this year they are of exceptional importance for footballers, as well as fans.The motif of vertical stripes along with the yellow collar is a reference to the jersey from the 2010/11 season, when the team from Barcelona won the Spanish championship and the Champions League.On the collar of the jersey there is an insert in the colors of Senyery i.e. the famous Catalan flag. The club from the capital of the region has repeatedly emphasized its origin and also this year decided to put such an emphasis on its most important kit.The patch with the serial code at the bottom and the original labels are proof of authenticity - we only import jerseys from the official source",
     inCart: false,
     count: 0,
     total: 0
