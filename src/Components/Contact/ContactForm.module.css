@@ -5,6 +5,10 @@
     justify-content: center;
     padding-top: 55px;
 }
+section {
+	font-family: 'Poppins', sans-serif !important;
+
+}
 .container { 
     display: flex;
     justify-content: center;
@@ -16,7 +20,7 @@
      padding-top: 0;
      align-self: start;
  }
-form { max-width:420px; margin:50px  0 auto; }
+.contactForm { max-width:420px; margin:50px  0 auto; }
 
 .feedbackInput {
   /* color:white; */
@@ -58,4 +62,95 @@ font-family: 'Poppins', sans-serif !important;
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#c36cbb; }
+.btn:hover { background:#c36cbb; }
+
+.contact {
+  text-align: center;
+  padding-top: 40px;
+  margin-top: 40px;
+}
+.socials {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+.socialIcons {
+  font-size: 50px;
+  margin: 0 10px;
+  padding: 10px;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 5px;
+  position: relative;
+
+  color: #c36cbb;
+
+  overflow: hidden;
+  transition: 0.2s;
+}
+.bgBlack {
+    margin-top: 15px;
+  background-color:black;
+  z-index: -1;
+}
+.mailingList {
+
+  display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 700px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+.mailingList h2 {
+    margin-top: 7px;
+	margin-bottom: 27px;
+	font-size: 25px;
+	font-weight: 500;
+	background: linear-gradient(to right, #494964, #6f6f89);
+	-webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+
+}
+.mailingListForm {
+    margin-bottom: 40px;
+
+}
+.formStyle {
+
+    display: flex;
+	flex-wrap: wrap;
+}
+.mailingListForm input[type="email"] {
+	
+    border-radius: 5px;
+    border: 0px;
+  color:#fff;
+    display: inline-block;
+    font-size: 14px;
+    flex: 1;
+  padding: 10px 100px;
+  margin-right: 10px;
+  background-color: #e4d1e2;
+  
+}
+
+.btnGhost {
+	font-family: 'Poppins', sans-serif !important;
+  background-color: #19f036;
+  color: black;
+	border-radius: 7px;
+	padding: 12px 15px;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	transition: all 0.1s ease;
+}
+.btnGhost:active {
+    transform: translate(2px 2px);
+}
