@@ -8,7 +8,7 @@ export const storeProducts = [
     id: 1,
     title: "PARIS ST-GERMAIN HOME KIT",
     img: "kits/pasg.jpg",
-    price: 65,
+    price: 65.99,
     brand: "Nike",
     info:"Jersey fits true to size ,Material is 100% Polyester,Nike Breathe fabrics move sweat from your skin and feature highly breathable construction to help you stay dry and comfortable,Dri-FIT technology that  wicks away moisture,Woven Authentic Nike jock tag on left hem,Embroidered Nike ® logo on right chest,Sewn on embroidered team crest on left chest.and is Machine washable",
     inCart: false,
@@ -21,8 +21,8 @@ export const storeProducts = [
     // img: "img/product-2.png",
     img:"kits/images (1).jpg", 
     
-    price: 16,
-    company: "SAMSUNG",
+    price: 89.99,
+    brand: "New Balance",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -34,7 +34,7 @@ export const storeProducts = [
     title: "FC BARCELONA HOME KIT",
     img: "kits/images (3).jpg",
     price: 64.99,
-    brand: "NIKE",
+    brand: "Nike",
     info:"The great return of the stripes on the classic Blaugrana jersey, but this year they are of exceptional importance for footballers, as well as fans.The motif of vertical stripes along with the yellow collar is a reference to the jersey from the 2010/11 season, when the team from Barcelona won the Spanish championship and the Champions League.On the collar of the jersey there is an insert in the colors of Senyery i.e. the famous Catalan flag. The club from the capital of the region has repeatedly emphasized its origin and also this year decided to put such an emphasis on its most important kit.The patch with the serial code at the bottom and the original labels are proof of authenticity - we only import jerseys from the official source",
     inCart: false,
     count: 0,
@@ -44,8 +44,8 @@ export const storeProducts = [
     id: 4,
     title: "MANCHESTER CITY HOME KIT",
     img: "kits/images (2).jpg",
-    price: 18,
-    company: "htc",
+    price: 99.99,
+    brand: "Nike",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -56,8 +56,8 @@ export const storeProducts = [
     id: 5,
     title: "ATLETICO MADRID AWAY KIT",
     img: "kits/images (5).jpg",
-    price: 24,
-    company: "htc",
+    price: 78.99,
+    brand: "Nike",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -68,8 +68,8 @@ export const storeProducts = [
     id: 6,
     title: "MANCHESTER UNITED HOME KIT",
     img: "kits/images (4).jpg",
-    price: 17,
-    company: "apple",
+    price: 119.99,
+    brand: "Adidas",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -78,11 +78,11 @@ export const storeProducts = [
   },
   
   {
-    id: 8,
+    id: 7,
     title: "BORUSSIA DORTMUND HOME KIT",
     img: "kits/images (8).jpg",
-    price: 2,
-    company: "apple",
+    price: 69.99,
+    brand: "Puma",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -90,11 +90,11 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 7,
+    id: 8,
     title: "CHELSEA FC HOME KIT",
     img: "kits/images (6).jpg",
-    price: 30,
-    company: "apple",
+    price: 119.99,
+    brand: "Nike",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -103,11 +103,11 @@ export const storeProducts = [
   }
   ,
   {
-    id: 7,
+    id: 9,
     title: "REAL MADRID HOME KIT",
     img: "kits/images.jpg",
-    price: 30,
-    company: "apple",
+    price: 99.99,
+    brand: "Adidas",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -116,11 +116,11 @@ export const storeProducts = [
   },
   
   {
-    id: 7,
+    id: 10,
     title: "FC BAYERN MUNICH AWAY KIT",
     img: "kits/images (7).jpg",
-    price: 30,
-    company: "apple",
+    price: 65.99,
+    brand: "Adidas",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -129,11 +129,11 @@ export const storeProducts = [
   },
   
   {
-    id: 7,
+    id: 11,
     title: "CHRISTIANO RONALDO ICONIC JERSEY",
     img: "kits/ronaldo.jpg",
-    price: 30,
-    company: "apple",
+    price: 159.99,
+    brand: "Adidas",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -142,11 +142,11 @@ export const storeProducts = [
   }
   ,
   {
-    id: 7,
+    id: 12,
     title: "TOTTENHAM HOTSPUR HOME KIT",
     img: "kits/images (9).jpg",
-    price: 30,
-    company: "apple",
+    price: 77.99,
+    brand: "Nike",
     info:
       "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
     inCart: false,
@@ -160,13 +160,12 @@ export const storeProducts = [
 //placeholder
 export const detailProduct = {
   id: 1,
-  title: "Google Pixel - Black",
-  img: "img/product-1.png",
-  price: 10,
-  company: "google",
-  info:
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
-  inCart: false,
-  count: 0,
-  total: 0
+    title: "PARIS ST-GERMAIN HOME KIT",
+    img: "kits/pasg.jpg",
+    price: 65.99,
+    brand: "Nike",
+    info:"Jersey fits true to size ,Material is 100% Polyester,Nike Breathe fabrics move sweat from your skin and feature highly breathable construction to help you stay dry and comfortable,Dri-FIT technology that  wicks away moisture,Woven Authentic Nike jock tag on left hem,Embroidered Nike ® logo on right chest,Sewn on embroidered team crest on left chest.and is Machine washable",
+    inCart: false,
+    count: 0,
+    total: 0
 };
