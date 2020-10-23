@@ -1,4 +1,5 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import psgkit from "../../assets/img/psgkit.png";
 import arrowleft from "../../assets/img/arrowleft.svg";
 import arrowright from "../../assets/img/arrowright.svg";
@@ -11,6 +12,11 @@ import mideclipse from "../../assets/img/mideclipse.svg";
 import smalleclipse from "../../assets/img/smalleclipse.svg";
 
 export default function LandingPage() {
+  const history = useHistory();
+  const handleMenuItemClick = (pageURL) => {
+    history.push(pageURL);
+  };
+
   function changeImageToAtletico() {
     let img2 = atletico;
     var imgElement = document.getElementById("test");
@@ -35,7 +41,10 @@ export default function LandingPage() {
               <h2>Get your Kit! Be Wavy!</h2>
             </div>
             <div className={styles.cta}>
-              <button className={styles.neon}>
+              <button
+                className={styles.neon}
+                onClick={() => handleMenuItemClick("/products")}
+              >
                 <span></span>
                 <span></span>
                 <span></span>
