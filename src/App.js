@@ -1,5 +1,5 @@
 import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
@@ -16,17 +16,19 @@ class App extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar />
-        <Switch>
-          <Route exact path="/" component={ProductList} />
-          <Route path="/details" component={Details} />
-          <Route path="/cart" component={Cart} />
-          <Route path="/landingpage" component={LandingPage} />
-          <Route path="/contact" component={ContactForm} />
-          <Route component={Default} />
-        </Switch>
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route exact path="/" component={LandingPage} />
+            <Route path="/details" component={Details} />
+            <Route path="/cart" component={Cart} />
+            <Route path="/products" component={ProductList} />
+            <Route path="/contact" component={ContactForm} />
+            <Route component={Default} />
+          </Switch>
 
-        <Modal />
+          <Modal />
+        </Router>
       </React.Fragment>
     );
   }
