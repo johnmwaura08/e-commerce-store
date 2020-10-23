@@ -8,7 +8,7 @@ export default class Navbar extends Component {
     return (
       <div className={styles.container}>
         <div className={styles.logoContainer}>
-          <Link to="/landingpage">
+          <Link to="/">
             <img src={wavylogo} alt="logo" />
           </Link>
 
@@ -16,7 +16,7 @@ export default class Navbar extends Component {
         </div>
         <nav>
           <ul className={styles.navLinks}>
-            <Link to="/" style={{ textDecoration: "none" }}>
+            <Link to="/products" style={{ textDecoration: "none" }}>
               <li className={styles.navLink}>Products</li>
             </Link>
             <Link to="/contact" style={{ textDecoration: "none" }}>
